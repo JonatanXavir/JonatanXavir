@@ -1,1 +1,1 @@
-![Snake animation](https://github.com/JonatanXavir/cobrinha/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/JonatanXavir/cobrinha/.github/blob/output/github-contribution-grid-snake.svg)
