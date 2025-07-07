@@ -1,28 +1,21 @@
-# 🐍 Snake Game no meu GitHub!
+name: Snake Game
 
-Quer jogar o clássico Snake? Eu coloquei um mini game direto aqui no meu perfil. Prepare seus reflexos 👾
+on:
+  schedule:
+    - cron: "0 */5 * * *"  # Atualiza a cada 5 horas
+  workflow_dispatch:
 
-🎮 **Jogue aqui:** [Snake Game](https://jonatan-snake-game.netlify.app)  
-> 🖱️ Use as setas do teclado para controlar a cobrinha e tente bater seu recorde!
-
----
-
-## 👋 Sobre mim
-
-Sou o Jonatan, desenvolvedor apaixonado por tecnologia e café ☕. Além de codar, curto trazer um pouco de diversão pro mundo dev — tipo criar joguinhos como esse 🕹️
-
-## 🚀 Tecnologias que uso
-- JavaScript / React / Node.js
-- HTML5 / CSS3 / Git
-- Explorando jogos com Canvas e WebGL
-
-## 📫 Vamos nos conectar?
-- [LinkedIn](https://linkedin.com/in/seu-usuario)
-- [Email](mailto:seu-email@example.com)
-- [Portfólio](https://seusite.dev)
-
----
-
-_"Para mim, codar é como jogar Snake: sempre tentando crescer sem se perder."_ 😄
-
-
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@master
+        with:
+          github_user_name: jonatan  # seu nome de usuário
+          svg_out_path: dist/github-contribution-grid-snake.svg
+      - uses: crazy-max/ghaction-github-pages@v2.1.3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
