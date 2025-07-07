@@ -1,16 +1,28 @@
-## Olá turma de desinvolvimento de sistemas!!👋
+# 🐍 Snake Game no meu GitHub!
 
-<!--
-**JonatanXavir/JonatanXavir** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Quer jogar o clássico Snake? Eu coloquei um mini game direto aqui no meu perfil. Prepare seus reflexos 👾
 
-Here are some ideas to get you started:
+🎮 **Jogue aqui:** [Snake Game](https://jonatan-snake-game.netlify.app)  
+> 🖱️ Use as setas do teclado para controlar a cobrinha e tente bater seu recorde!
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 👋 Sobre mim
+
+Sou o Jonatan, desenvolvedor apaixonado por tecnologia e café ☕. Além de codar, curto trazer um pouco de diversão pro mundo dev — tipo criar joguinhos como esse 🕹️
+
+## 🚀 Tecnologias que uso
+- JavaScript / React / Node.js
+- HTML5 / CSS3 / Git
+- Explorando jogos com Canvas e WebGL
+
+## 📫 Vamos nos conectar?
+- [LinkedIn](https://linkedin.com/in/seu-usuario)
+- [Email](mailto:seu-email@example.com)
+- [Portfólio](https://seusite.dev)
+
+---
+
+_"Para mim, codar é como jogar Snake: sempre tentando crescer sem se perder."_ 😄
+
+
